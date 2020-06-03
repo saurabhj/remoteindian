@@ -19,5 +19,12 @@
     "twitter": "dmytrobol",
     "picture": "/authors/dmytrobol.png",
     "bio": "JavaScript Lad, Movie buff and coder interested in everything web related"
+  },
+  {
+    "username": "avi87",
+    "name": "Abhishek Bose",
+    "twitter": "avi87",
+    "picture": "/authors/avi87.jpg",
+    "bio": "Creator of RemoteIndian community"
   }
 ]

@@ -6,7 +6,7 @@ import DefaultLayout from 'layouts/default/index';
 import PageHeader from 'components/page-header';
 import PageFooter from 'components/page-footer';
 import SiteNav from 'components/site-nav';
-import { getAllInterviews } from 'lib/interview';
+import { getAllGuides } from 'lib/guide';
 import siteConfig from 'content/site';
 import Helmet from 'components/helmet';
 
@@ -21,13 +21,13 @@ const GuidesList = () => (
       <BadgesList className="mt-4">
         <BadgeLink href={siteConfig.url.addGuide} target="_blank">
           <SecondaryBadge>
-            <FontAwesomeIcon icon={faCodeBranch} />
+            <FontAwesomeIcon icon={faCodeBranch}/>
             Write a Guide
           </SecondaryBadge>
         </BadgeLink>
         <BadgeLink href="/signup">
           <PrimaryBadge>
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope}/>
             Send me Updates
           </PrimaryBadge>
         </BadgeLink>
@@ -36,9 +36,9 @@ const GuidesList = () => (
     <div className="pt-5 pb-5 bg-light border-top">
       <div className="container">
         <div className="row">
-          { getAllInterviews().map((guide) => (
-            <FeaturedGuide guide={guide} key={guide.url} />
-          ))}
+          { getAllGuides().map(guide => (
+            <FeaturedGuide guide={guide} key={ guide.url } />
+          )) }
         </div>
       </div>
     </div>

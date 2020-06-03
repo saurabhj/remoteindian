@@ -68,74 +68,104 @@ function generateNode({
 }
 
 function generateSiteMap() {
-  const pageRoutes = getPageRoutes();
-  const pageSlugs = Object.keys(pageRoutes)
-    .filter(route => ![
-      '/privacy',
-      '/terms',
-    ].includes(route));
+                             const pageRoutes = getPageRoutes();
+                             const pageSlugs = Object.keys(pageRoutes).filter(
+                               (route) =>
+                                 !["/privacy", "/terms"].includes(route)
+                             );
 
-  const pagesChunk = pageSlugs.map(pageSlug => {
-    return generateNode({
-      basePath: PAGES_DIR,
-      fileName: `${pageRoutes[pageSlug].page}.js`,
-      slug: pageSlug,
-    });
-  });
+                             const pagesChunk = pageSlugs.map((pageSlug) => {
+                               return generateNode({
+                                 basePath: PAGES_DIR,
+                                 fileName: `${pageRoutes[pageSlug].page}.js`,
+                                 slug: pageSlug,
+                               });
+                             });
 
-  // Chunks for each of the guides
-  const guideRoutes = getGuideRoutes();
-  const guideSlugs = Object.keys(guideRoutes);
-  const guidesChunk = guideSlugs.map(guideSlug => {
-    const foundGuide = guides.find(guide => guide.url === guideSlug) || {};
-    return generateNode({
-      basePath: STORAGE_PATH,
-      fileName: `${guideSlug}.md`,
-      slug: guideSlug,
-      date: foundGuide.updatedAt,
-      priority: '1.0',
-    });
-  });
+                             // Chunks for each of the guides
+                             const guideRoutes = getGuideRoutes();
+                             const guideSlugs = Object.keys(guideRoutes);
+                             const guidesChunk = guideSlugs.map((guideSlug) => {
+                               const foundGuide =
+                                 guides.find(
+                                   (guide) => guide.url === guideSlug
+                                 ) || {};
+                               return generateNode({
+                                 basePath: STORAGE_PATH,
+                                 fileName: `${guideSlug}.md`,
+                                 slug: guideSlug,
+                                 date: foundGuide.updatedAt,
+                                 priority: "1.0",
+                               });
+                             });
 
-  // Chunks for each of the roadmaps
-  const roadmapsChunk = roadmaps.reduce((roadmapsNodes, roadmap) => {
-    return [
-      ...roadmapsNodes,
-      generateNode({
-        basePath: STORAGE_PATH,
-        fileName: roadmap.path,
-        slug: roadmap.url,
-        priority: '1.0',
-      }),
-      ...Object
-        .values(roadmap.sidebar || {})
-        .reduce((pageNodes, menuPages) => {
-          return [
-            ...pageNodes,
-            ...menuPages.map(menuPage => {
-              return generateNode({
-                basePath: STORAGE_PATH,
-                fileName: menuPage.path,
-                slug: menuPage.url,
-                priority: menuPage.path.includes('_others') ? '0.5' : '1.0',
-              })
-            })
-          ];
-        }, [])
-    ]
-  }, []);
+                            //  // Chunks for each of the interviews
+                            //  const interviewRoutes = getInterviewRoutes();
+                            //  const interviewSlugs = Object.keys(interviewRoutes);
+                            //  const interviewsChunk = interviewSlugs.map((interviewSlug) => {
+                            //    const foundInterview =
+                            //      interviews.find(
+                            //        (interview) => interview.url === interviewSlug
+                            //      ) || {};
+                            //    return generateNode({
+                            //      basePath: STORAGE_PATH,
+                            //      fileName: `${interviewSlug}.md`,
+                            //      slug: interviewSlug,
+                            //      date: foundInterview.updatedAt,
+                            //      priority: "1.0",
+                            //    });
+                            //  });
 
-  const nodes = [
-    ...roadmapsChunk,
-    ...guidesChunk,
-    ...pagesChunk,
-  ];
+                             // Chunks for each of the roadmaps
+                             const roadmapsChunk = roadmaps.reduce(
+                               (roadmapsNodes, roadmap) => {
+                                 return [
+                                   ...roadmapsNodes,
+                                   generateNode({
+                                     basePath: STORAGE_PATH,
+                                     fileName: roadmap.path,
+                                     slug: roadmap.url,
+                                     priority: "1.0",
+                                   }),
+                                   ...Object.values(
+                                     roadmap.sidebar || {}
+                                   ).reduce((pageNodes, menuPages) => {
+                                     return [
+                                       ...pageNodes,
+                                       ...menuPages.map((menuPage) => {
+                                         return generateNode({
+                                           basePath: STORAGE_PATH,
+                                           fileName: menuPage.path,
+                                           slug: menuPage.url,
+                                           priority: menuPage.path.includes(
+                                             "_others"
+                                           )
+                                             ? "0.5"
+                                             : "1.0",
+                                         });
+                                       }),
+                                     ];
+                                   }, []),
+                                 ];
+                               },
+                               []
+                             );
 
-  const sitemap = `${xmlUrlWrapper(nodes.join('\n'))}`;
+                             const nodes = [
+                               ...roadmapsChunk,
+                               ...guidesChunk,
+                               ...pagesChunk,
+                             ];
 
-  fs.writeFileSync(SITEMAP_PATH, sitemap);
+                             const sitemap = `${xmlUrlWrapper(
+                               nodes.join("\n")
+                             )}`;
 
-  console.log(`sitemap.xml with ${nodes.length} entries was written to ${SITEMAP_PATH}`);
-}
+                             fs.writeFileSync(SITEMAP_PATH, sitemap);
+
+                             console.log(
+                               `sitemap.xml with ${nodes.length} entries was written to ${SITEMAP_PATH}`
+                             );
+                           }
 
 generateSiteMap();
