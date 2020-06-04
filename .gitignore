@@ -4,7 +4,7 @@ Thumbs.db
 .idea
 .next
 out
-.env
+# .env
 build
 node_modules
 yarn-error.log
