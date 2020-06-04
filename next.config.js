@@ -29,7 +29,7 @@ const loadConfig = (env = 'dev') => {
 
 const options = {
   exportPathMap: getPathMap(),
-  env: loadConfig(process.env.NODE_ENV),
+  // env: loadConfig(process.env.NODE_ENV),
   pageExtensions: ['jsx', 'js', 'mdx', 'md'],
   webpack(config, options) {
     // // Transforms SVGs to components

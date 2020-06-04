@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const guides = require('../content/guides');
-const roadmaps = require('../content/roadmaps');
+// const roadmaps = require('../content/roadmaps');
 const { getPageRoutes, getGuideRoutes } = require('./path-map');
 
 const DOMAIN = 'https://roadmap.sh';
@@ -117,42 +117,42 @@ function generateSiteMap() {
                             //  });
 
                              // Chunks for each of the roadmaps
-                             const roadmapsChunk = roadmaps.reduce(
-                               (roadmapsNodes, roadmap) => {
-                                 return [
-                                   ...roadmapsNodes,
-                                   generateNode({
-                                     basePath: STORAGE_PATH,
-                                     fileName: roadmap.path,
-                                     slug: roadmap.url,
-                                     priority: "1.0",
-                                   }),
-                                   ...Object.values(
-                                     roadmap.sidebar || {}
-                                   ).reduce((pageNodes, menuPages) => {
-                                     return [
-                                       ...pageNodes,
-                                       ...menuPages.map((menuPage) => {
-                                         return generateNode({
-                                           basePath: STORAGE_PATH,
-                                           fileName: menuPage.path,
-                                           slug: menuPage.url,
-                                           priority: menuPage.path.includes(
-                                             "_others"
-                                           )
-                                             ? "0.5"
-                                             : "1.0",
-                                         });
-                                       }),
-                                     ];
-                                   }, []),
-                                 ];
-                               },
-                               []
-                             );
+                            //  const roadmapsChunk = roadmaps.reduce(
+                            //    (roadmapsNodes, roadmap) => {
+                            //      return [
+                            //        ...roadmapsNodes,
+                            //        generateNode({
+                            //          basePath: STORAGE_PATH,
+                            //          fileName: roadmap.path,
+                            //          slug: roadmap.url,
+                            //          priority: "1.0",
+                            //        }),
+                            //        ...Object.values(
+                            //          roadmap.sidebar || {}
+                            //        ).reduce((pageNodes, menuPages) => {
+                            //          return [
+                            //            ...pageNodes,
+                            //            ...menuPages.map((menuPage) => {
+                            //              return generateNode({
+                            //                basePath: STORAGE_PATH,
+                            //                fileName: menuPage.path,
+                            //                slug: menuPage.url,
+                            //                priority: menuPage.path.includes(
+                            //                  "_others"
+                            //                )
+                            //                  ? "0.5"
+                            //                  : "1.0",
+                            //              });
+                            //            }),
+                            //          ];
+                            //        }, []),
+                            //      ];
+                            //    },
+                            //    []
+                            //  );
 
                              const nodes = [
-                               ...roadmapsChunk,
+                              //  ...roadmapsChunk,
                                ...guidesChunk,
                                ...pagesChunk,
                              ];
