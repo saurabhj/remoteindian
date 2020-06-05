@@ -1,12 +1,172 @@
 [
   {
-    "title": "Rajnish",
-    "description": "Rajnish used to spend 2 hrs daily for office commute in Bangalore. Learn how things have changed for the better after he started working remotely 😎",
-    "url": "/interviews/rajnish",
-    "fileName": "rajnish",
+    "title": "Javed Khan",
+    "description": "Learn how this crypto wizard got a remote job as a developer in Purse. Also read the habits and rituals which help him to work remotely :)",
+    "url": "/interviews/javed-khan",
+    "fileName": "javed-khan",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-03-23",
+    "createdAt": "2018-03-23"
+  },
+  {
+    "title": "Mayur Sontakke",
+    "description": "Learn how Mayur gets to work remotely even though he is from finance domain. Read to understand how a remote job has helped him to become a World Citizen :)",
+    "url": "/interviews/mayur-sontakke",
+    "fileName": "mayur-sontakke",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-04-17",
+    "createdAt": "2018-04-17"
+  },
+  {
+    "title": "Sarup Banskota",
+    "description": "Frontend Ninja. Digital Nomad. Storyteller. Learn how Sarup works remotely from Singapore and how he is helping others to level up in their coding journey.",
+    "url": "/interviews/sarup-banskota",
+    "fileName": "sarup-banskota",
     "featured": true,
     "author": "avi87",
-    "updatedAt": "2020-03-14T15:48:21.191Z",
-    "createdAt": "2020-03-14T15:48:21.191Z"
+    "updatedAt": "2018-04-22",
+    "createdAt": "2018-04-22"
+  },
+  {
+    "title": "Darshan Gajara",
+    "description": "Designer. Freelancer. Traveller. Learn how Darshan got his first freelance gig from Twitter :) Also understand his rituals which help him to work remotely.",
+    "url": "/interviews/darshan-gajara",
+    "fileName": "darshan-gajara",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-05-03",
+    "createdAt": "2018-05-03"
+  },
+  {
+    "title": "Prathamesh Sonpatki",
+    "description": "Prathamesh works remotely in India as a rubyist. Learn how a remote job allows him to travel the world and see different places and meet different people.",
+    "url": "/interviews/prathamesh-sonpatki",
+    "fileName": "prathamesh-sonpatki",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-07-07",
+    "createdAt": "2018-07-07"
+  },
+  {
+    "title": "Ankit Chhajed",
+    "description": "Visual Design Expert, Life Coach and a Digital Entrepreneur. Read to know more about his journey as he works from Jaipur.",
+    "url": "/interviews/ankit-chhajed",
+    "fileName": "ankit-chhajed",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-08-26",
+    "createdAt": "2018-08-26"
+  },
+  {
+    "title": "Avi Aryan",
+    "description": "Full Stack Developer. Budding Entrepreneur. Mentor @ Udacity. Read this interview to learn #1 tip about freelancing that will help you increase your rates dramatically.",
+    "url": "/interviews/avi-aryan",
+    "fileName": "avi-aryan",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-09-05",
+    "createdAt": "2018-09-05"
+  },
+  {
+    "title": "Suhas Motwani",
+    "description": "Read to understand how Suhas Motwani hustled like there’s no tomorrow to land his first remote job as a Business Intelligence & Analytics Consultant :)",
+    "url": "/interviews/suhas-motwani",
+    "fileName": "suhas-motwani",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-09-25",
+    "createdAt": "2018-09-25"
+  },
+  {
+    "title": "Sandhya Ramachandran",
+    "description": "Learn how Sandhya Ramachandran got a remote job as a Content Developer at QLC :) Also figure out what habits help her to work remotely !!",
+    "url": "/interviews/sandhya-ramachandran",
+    "fileName": "sandhya-ramachandran",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-11-04",
+    "createdAt": "2018-11-04"
+  },
+  {
+    "title": "Prashant Abhishek",
+    "description": "AltCampus founder, Geek who loves community and building products. Learn what convinced Prashant Abhishek to make the move to Dharamshala :)",
+    "url": "/interviews/prashant-abhishek",
+    "fileName": "prashant-abhishek",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2018-12-29",
+    "createdAt": "2018-12-29"
+  },
+  {
+    "title": "Hari Krishna (@1HaKr)",
+    "description": "Learn how Hari Krishna (@1HaKr) built 3 new microstartups, travelled to 4 countries, has more family time and is living a lifestyle that he truly enjoys :)",
+    "url": "/interviews/1hakr",
+    "fileName": "1hakr",
+    "featured": true,
+    "author": "avi87",
+    "updatedAt": "2019-01-20",
+    "createdAt": "2019-01-20"
+  },
+  {
+    "title": "Rahul",
+    "description": "Find out how Rahul wound up working remotely for Product Hunt &#x1f60e; Also he has a really unique coffee ritual &#x2615; &#xfe0f;",
+    "url": "/interviews/rahul",
+    "fileName": "rahul",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2019-02-19",
+    "createdAt": "2019-02-19"
+  },
+  {
+    "title": "Saurabh Jain",
+    "description": "Learn how Saurabh used Law of Averages to find his dream remote job &#x1f60e;",
+    "url": "/interviews/saurabh-jain",
+    "fileName": "saurabh-jain",
+    "featured": true,
+    "author": "avi87",
+    "updatedAt": "2019-06-05",
+    "createdAt": "2019-06-05"
+  },
+  {
+    "title": "Faraz Patankar",
+    "description": "Find out how Faraz, a college dropout, went on to work remotely for Daycation &#x1f60e;",
+    "url": "/interviews/faraz-patankar",
+    "fileName": "faraz-patankar",
+    "featured": true,
+    "author": "avi87",
+    "updatedAt": "2019-06-14",
+    "createdAt": "2019-06-14"
+  },
+  {
+    "title": "Parbhat Puri",
+    "description": "Find out how Parbhat Puri has an awesome freelance career working from Kurukshetra &#x1f914;",
+    "url": "/interviews/parbhat-puri",
+    "fileName": "parbhat-puri",
+    "featured": true,
+    "author": "avi87",
+    "updatedAt": "2019-06-22",
+    "createdAt": "2019-06-22"
+  },
+  {
+    "title": "Pravin",
+    "description": "Find out how Pravin is a successful Upworker and now has multiple sources of income &#x1f914;",
+    "url": "/interviews/pravin",
+    "fileName": "pravin",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2019-07-20",
+    "createdAt": "2019-07-20"
+  },
+  {
+    "title": "Rajnish",
+    "description": "Rajnish used to spend 2 hrs daily for office commute in Bangalore. Learn how things have changed for the better after he started working remotely &#x1f60e;",
+    "url": "/interviews/rajnish",
+    "fileName": "rajnish",
+    "featured": false,
+    "author": "avi87",
+    "updatedAt": "2019-07-27",
+    "createdAt": "2019-07-27"
   }
 ]

@@ -32,13 +32,17 @@ Information Technology
 
 4+ years
 
-### When I think about the ability to work freelance/remotely, I feel ____
+### When I think about the ability to work freelance/remotely, I feel \_\_\_\_
 
 More time with family and friends
 
 ### What was your key motivation for being freelancer/remote work
 
 Gives me a chance to live a balanced life
+
+ 
+
+* * *
 
 ## Fireside Chat 🔥
 

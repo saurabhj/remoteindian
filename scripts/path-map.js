@@ -4,6 +4,7 @@ const fs = require('fs');
 
 // const roadmaps = require('../content/roadmaps.json');
 const guides = require('../content/guides.json');
+const interviews = require("../content/interviews.json");
 
 const PAGES_PATH = path.join(__dirname, '../pages');
 const ROADMAPS_PATH =  path.join(__dirname, '../content/roadmaps');
@@ -52,22 +53,22 @@ const getGuideRoutes = () => {
   }, {});
 };
 
-// /**
-//  * Generates routes for interview pages
-//  * @returns {*}
-//  */
-// const getInterviewRoutes = () => {
-//   return interviews.reduce((acc, interview) => {
-//     const [, , slug] = interview.url.split('/');
-//     return {
-//       ...acc,
-//       [interview.url]: {
-//         page: '/interviews/[interview]',
-//         query: slug,
-//       },
-//     };
-//   }, {});
-// };
+/**
+ * Generates routes for interview pages
+ * @returns {*}
+ */
+const getInterviewRoutes = () => {
+  return interviews.reduce((acc, interview) => {
+    const [, , slug] = interview.url.split('/');
+    return {
+      ...acc,
+      [interview.url]: {
+        page: '/interviews/[interview]',
+        query: slug,
+      },
+    };
+  }, {});
+};
 
 /**
  * Generates routes for each of the roadmap and its respective versions
@@ -115,12 +116,14 @@ const getRoadmapRoutes = () => {
 const getPathMap = () => () => ({
   ...getPageRoutes(),
   ...getGuideRoutes(),
+  ...getInterviewRoutes(),
   // ...getRoadmapRoutes(),
 });
 
 module.exports = {
   getPageRoutes,
   getGuideRoutes,
+  getInterviewRoutes,
   // getRoadmapRoutes,
   getPathMap,
 };
