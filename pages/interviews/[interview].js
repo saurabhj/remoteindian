@@ -8,7 +8,7 @@ import { getRequestedInterview } from 'lib/interview';
 import Helmet from 'components/helmet';
 import siteConfig from 'content/site';
 
-const Guide = ({ guide, canonical }) => {
+const Interview = ({ guide, canonical }) => {
   if (!guide) {
     return <Error statusCode={ 404 } />
   }
@@ -27,11 +27,11 @@ const Guide = ({ guide, canonical }) => {
   );
 };
 
-Guide.getInitialProps = serverOnlyProps(async ({ req }) => {
+Interview.getInitialProps = serverOnlyProps(async ({ req }) => {
   return {
     canonical: `${siteConfig.url.web}${req.url}`,
     guide: await getRequestedInterview(req),
   };
 });
 
-export default Guide;
+export default Interview;

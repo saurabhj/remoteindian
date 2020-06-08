@@ -30,6 +30,7 @@ const loadConfig = (env = 'dev') => {
 const options = {
   exportPathMap: getPathMap(),
   // env: loadConfig(process.env.NODE_ENV),
+  env: { "GA_SECRET": "" },
   pageExtensions: ['jsx', 'js', 'mdx', 'md'],
   webpack(config, options) {
     // // Transforms SVGs to components
