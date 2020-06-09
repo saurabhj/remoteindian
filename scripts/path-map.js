@@ -113,12 +113,19 @@ const getRoadmapRoutes = () => {
  * Generates the path-map understood by next.js
  * @returns {{}}
  */
+// const getPathMap = () => () => ({
+//   ...getPageRoutes(),
+//   ...getGuideRoutes(),
+//   ...getInterviewRoutes(),
+//   // ...getRoadmapRoutes(),
+// });
+
+
 const getPathMap = () => () => ({
-  ...getPageRoutes(),
-  ...getGuideRoutes(),
-  ...getInterviewRoutes(),
-  // ...getRoadmapRoutes(),
-});
+  '/': { page: '/' },
+  '/interviews': { page: '/interviews' },
+  '/interviews/[interview]': { page: '/interviews/[interview]' },
+})
 
 module.exports = {
   getPageRoutes,

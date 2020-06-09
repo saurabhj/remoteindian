@@ -28,7 +28,7 @@ const loadConfig = (env = 'dev') => {
 };
 
 const options = {
-  exportPathMap: getPathMap(),
+  // exportPathMap: getPathMap(),
   // env: loadConfig(process.env.NODE_ENV),
   env: { "GA_SECRET": "" },
   pageExtensions: ['jsx', 'js', 'mdx', 'md'],
@@ -39,7 +39,7 @@ const options = {
       use: ['@svgr/webpack'],
     });
 
-  config.resolve.modules.push(path.resolve('./'));
+    config.resolve.modules.push(path.resolve('./'));
 
     // Allow loading images and fonts
     config.module.rules.push({

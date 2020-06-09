@@ -27,11 +27,36 @@ const Interview = ({ guide, canonical }) => {
   );
 };
 
-Interview.getInitialProps = serverOnlyProps(async ({ req }) => {
+// Interview.getInitialProps = serverOnlyProps(async ({ req }) => {
+//   return {
+//     canonical: `${siteConfig.url.web}${req.url}`,
+//     guide: await getRequestedInterview(req),
+//   };
+// });
+
+export async function getStaticProps({ params }) {
+  const guide = await getRequestedInterview(params.interview)
+
   return {
-    canonical: `${siteConfig.url.web}${req.url}`,
-    guide: await getRequestedInterview(req),
+    props: {
+      guide,
+    },
+  }
+}
+
+export async function getStaticPaths() {
+  const interviews = require("../../content/interviews.json");
+
+  const paths = interviews.map((interview) => ({
+    params: {
+      interview: interview.fileName,
+    }
+  }));
+
+  return {
+    paths,
+    fallback: false,
   };
-});
+}
 
 export default Interview;
