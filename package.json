@@ -36,6 +36,7 @@
     "query-string": "^6.10.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "sass": "^1.26.8",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {

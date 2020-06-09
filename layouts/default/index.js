@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import './global.scss';
+// import './global.scss';
 import { firePageView } from 'lib/gtag';
 import { SponsorBanner } from '../../components/sponsor-banner';
 

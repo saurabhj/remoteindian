@@ -56,8 +56,10 @@ const options = {
   },
 };
 
-let nextConfig = withSass(options);
-nextConfig = withCSS(nextConfig);
-nextConfig = withMDX(nextConfig);
+// let nextConfig = withSass(options);
+// nextConfig = withCSS(nextConfig);
+// nextConfig = withMDX(nextConfig);
+
+let nextConfig = withMDX(options);
 
 module.exports = nextConfig;
