@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { FeaturedContentWrap } from './style';
-import FeaturedGuide from 'components/featured-guide';
+import FeaturedGuide from 'components/featured-interview';
 import { getFeaturedInterviews } from 'lib/interview';
 
 const FeaturedInterviews = () => (

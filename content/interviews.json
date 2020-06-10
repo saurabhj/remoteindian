@@ -1,5 +1,6 @@
 [
   {
+    "image": "/interviews/jakh_profile.jpeg",
     "title": "Javed Khan",
     "description": "Learn how this crypto wizard got a remote job as a developer in Purse. Also read the habits and rituals which help him to work remotely :)",
     "url": "/interviews/javed-khan",
@@ -10,6 +11,7 @@
     "createdAt": "2018-03-23"
   },
   {
+    "image": "/interviews/mayur_sontakke.jpg",
     "title": "Mayur Sontakke",
     "description": "Learn how Mayur gets to work remotely even though he is from finance domain. Read to understand how a remote job has helped him to become a World Citizen :)",
     "url": "/interviews/mayur-sontakke",
@@ -20,6 +22,7 @@
     "createdAt": "2018-04-17"
   },
   {
+    "image": "/interviews/sarup-1.jpg",
     "title": "Sarup Banskota",
     "description": "Frontend Ninja. Digital Nomad. Storyteller. Learn how Sarup works remotely from Singapore and how he is helping others to level up in their coding journey.",
     "url": "/interviews/sarup-banskota",
@@ -30,6 +33,7 @@
     "createdAt": "2018-04-22"
   },
   {
+    "image": "/interviews/dg_profile.jpg",
     "title": "Darshan Gajara",
     "description": "Designer. Freelancer. Traveller. Learn how Darshan got his first freelance gig from Twitter :) Also understand his rituals which help him to work remotely.",
     "url": "/interviews/darshan-gajara",
@@ -40,6 +44,7 @@
     "createdAt": "2018-05-03"
   },
   {
+    "image": "/interviews/pic.jpg",
     "title": "Prathamesh Sonpatki",
     "description": "Prathamesh works remotely in India as a rubyist. Learn how a remote job allows him to travel the world and see different places and meet different people.",
     "url": "/interviews/prathamesh-sonpatki",
@@ -50,6 +55,7 @@
     "createdAt": "2018-07-07"
   },
   {
+    "image": "/interviews/ankit_cj_2.png",
     "title": "Ankit Chhajed",
     "description": "Visual Design Expert, Life Coach and a Digital Entrepreneur. Read to know more about his journey as he works from Jaipur.",
     "url": "/interviews/ankit-chhajed",
@@ -60,6 +66,7 @@
     "createdAt": "2018-08-26"
   },
   {
+    "image": "/interviews/avi_aryan.png",
     "title": "Avi Aryan",
     "description": "Full Stack Developer. Budding Entrepreneur. Mentor @ Udacity. Read this interview to learn #1 tip about freelancing that will help you increase your rates dramatically.",
     "url": "/interviews/avi-aryan",
@@ -70,6 +77,7 @@
     "createdAt": "2018-09-05"
   },
   {
+    "image": "/interviews/suhas_profile.png",
     "title": "Suhas Motwani",
     "description": "Read to understand how Suhas Motwani hustled like there’s no tomorrow to land his first remote job as a Business Intelligence & Analytics Consultant :)",
     "url": "/interviews/suhas-motwani",
@@ -80,6 +88,7 @@
     "createdAt": "2018-09-25"
   },
   {
+    "image": "/interviews/Sandhya_2.jpg",
     "title": "Sandhya Ramachandran",
     "description": "Learn how Sandhya Ramachandran got a remote job as a Content Developer at QLC :) Also figure out what habits help her to work remotely !!",
     "url": "/interviews/sandhya-ramachandran",
@@ -90,6 +99,7 @@
     "createdAt": "2018-11-04"
   },
   {
+    "image": "/interviews/prashant_abhishek.jpg",
     "title": "Prashant Abhishek",
     "description": "AltCampus founder, Geek who loves community and building products. Learn what convinced Prashant Abhishek to make the move to Dharamshala :)",
     "url": "/interviews/prashant-abhishek",
@@ -100,6 +110,7 @@
     "createdAt": "2018-12-29"
   },
   {
+    "image": "/interviews/1hakr.png",
     "title": "Hari Krishna (@1HaKr)",
     "description": "Learn how Hari Krishna (@1HaKr) built 3 new microstartups, travelled to 4 countries, has more family time and is living a lifestyle that he truly enjoys :)",
     "url": "/interviews/1hakr",
@@ -110,6 +121,7 @@
     "createdAt": "2019-01-20"
   },
   {
+    "image": "/interviews/rahul_profile_pic.jpg",
     "title": "Rahul",
     "description": "Find out how Rahul wound up working remotely for Product Hunt 🙀. Also he has a really unique coffee ritual ☕️",
     "url": "/interviews/rahul",
@@ -120,6 +132,7 @@
     "createdAt": "2019-02-19"
   },
   {
+    "image": "/interviews/saurabh_profile_pic-e1559812641103.jpg",
     "title": "Saurabh Jain",
     "description": "Learn how Saurabh used Law of Averages to find his dream remote job 😎",
     "url": "/interviews/saurabh-jain",
@@ -130,6 +143,7 @@
     "createdAt": "2019-06-05"
   },
   {
+    "image": "/interviews/faraz_profile.jpg",
     "title": "Faraz Patankar",
     "description": "Find out how Faraz, a college dropout, went on to work remotely for Daycation 😎",
     "url": "/interviews/faraz-patankar",
@@ -140,6 +154,7 @@
     "createdAt": "2019-06-14"
   },
   {
+    "image": "/interviews/parbhat.jpg",
     "title": "Parbhat Puri",
     "description": "Find out how Parbhat Puri has an awesome freelance career working from Kurukshetra 🤔",
     "url": "/interviews/parbhat-puri",
@@ -150,6 +165,7 @@
     "createdAt": "2019-06-22"
   },
   {
+    "image": "/interviews/pravin_profile_pic_2.png",
     "title": "Pravin",
     "description": "Find out how Pravin is a successful Upworker and now has multiple sources of income 🤔",
     "url": "/interviews/pravin",
@@ -160,6 +176,7 @@
     "createdAt": "2019-07-20"
   },
   {
+    "image": "/interviews/rajnish_profile_pic-1.jpg",
     "title": "Rajnish",
     "description": "Rajnish used to spend 2 hrs daily for office commute in Bangalore. Learn how things have changed for the better after he started working remotely",
     "url": "/interviews/rajnish",

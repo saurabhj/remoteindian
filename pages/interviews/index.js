@@ -1,7 +1,7 @@
 import { faCodeBranch, faEnvelope } from '@fortawesome/free-solid-svg-icons/index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { BadgeLink, BadgesList, PrimaryBadge, SecondaryBadge } from 'components/badges';
-import FeaturedGuide from 'components/featured-guide';
+import FeaturedGuide from 'components/featured-interview';
 import DefaultLayout from 'layouts/default/index';
 import PageHeader from 'components/page-header';
 import PageFooter from 'components/page-footer';
@@ -10,8 +10,8 @@ import { getAllInterviews } from 'lib/interview';
 import siteConfig from 'content/site';
 import Helmet from 'components/helmet';
 
-const PageTitle = "Programming Guides";
-const PageDescription = "Easy to follow guides on complex topics written and maintained by the community";
+const PageTitle = "RI Interviews";
+const PageDescription = "Get inspired by reading stories of folks who are working remotely in India 🇮🇳";
 
 const GuidesList = () => (
   <DefaultLayout>
@@ -22,7 +22,7 @@ const GuidesList = () => (
         <BadgeLink href={siteConfig.url.addGuide} target="_blank">
           <SecondaryBadge>
             <FontAwesomeIcon icon={faCodeBranch} />
-            Write a Guide
+            Share your story
           </SecondaryBadge>
         </BadgeLink>
         <BadgeLink href="/signup">
