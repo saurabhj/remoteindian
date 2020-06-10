@@ -4,8 +4,9 @@ import { HeroSectionWrap } from './style';
 const HeroSection = () => (
   <HeroSectionWrap>
     <div className="container">
-      <h1>Developer Roadmaps</h1>
-      <p>Community driven roadmaps, articles and resources for developers. <Link href="/signup"><a>Sign up</a></Link> for occasional updates on new roadmaps, updates and guides</p>
+      <h2>Your success does not depend upon your pincode.</h2>
+      {/* <h1>RemoteIndian Community</h1> */}
+      <p>Join a community of folks who are working remotely in India 🇮🇳</p>
     </div>
   </HeroSectionWrap>
 );

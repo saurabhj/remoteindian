@@ -5,6 +5,7 @@ import FeaturedInterviews from './interviews';
 
 const FeaturedContent = (props) => (
   <FeaturedWrap className="border-top bg-light">
+    <FeaturedGuides/>
     <FeaturedInterviews />
   </FeaturedWrap>
 );

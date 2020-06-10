@@ -10,7 +10,7 @@ import { getAllGuides } from 'lib/guide';
 import siteConfig from 'content/site';
 import Helmet from 'components/helmet';
 
-const PageTitle = "Programming Guides";
+const PageTitle = "RI Guides";
 const PageDescription = "Easy to follow guides on complex topics written and maintained by the community";
 
 const GuidesList = () => (

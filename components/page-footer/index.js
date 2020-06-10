@@ -9,22 +9,34 @@ const PageFooter = () => (
         <div className="site-meta-wrap col-12 col-sm-12 col-lg col-xl col-md-12">
           <div className="site-meta">
             <div className="brand-detail">
-              <a href="/" className='brand'><img src="/brand.png" alt="" /> roadmap.sh</a>
+              <a href="/" className="brand">
+                <img src="/brand.png" alt="" /> RemoteIndian
+              </a>
               <span className="preposition">by</span>
-              <a href="https://twitter.com/kamranahmedse" target="_blank" className='follow-author'>@kamranahmedse</a>
+              <a
+                href="https://twitter.com/abhishekbose87"
+                target="_blank"
+                className="follow-author"
+              >
+                @abhishekbose87
+              </a>
             </div>
             <div className="brand-explanation">
-              <p>Community created roadmaps, articles, resources and journeys to help you choose your path and grow in your career.</p>
+              <p>
+                Join a community for remote workers, work from home
+                professionals, freelancers and indie hackers in India
+                &#x1f1ee;&#x1f1f3;
+              </p>
             </div>
-            <p className='meta-links'>
+            {/* <p className='meta-links'>
               &copy; roadmap.sh &middot;
               &nbsp; <a href="/about">FAQ</a> &middot;
               &nbsp; <a href="/terms">Terms</a> &middot;
               &nbsp; <a href="/privacy">Privacy</a>
-            </p>
+            </p> */}
           </div>
         </div>
-        <div className="site-contribute foot-col col-12 col-sm-4 col-lg-2">
+        {/* <div className="site-contribute foot-col col-12 col-sm-4 col-lg-2">
           <ul>
             <li className='foot-header'>Contribute</li>
             <li><a href={ siteConfig.url.addGuide } target="_blank">Write a Guide</a></li>
@@ -32,8 +44,8 @@ const PageFooter = () => (
             <li><a href={ siteConfig.url.addResources } target="_blank">Add resources</a></li>
             <li><a href={ siteConfig.url.repo } target="_blank">Codebase</a></li>
           </ul>
-        </div>
-        <div className="site-learn foot-col col-12 col-sm-4 col-lg-2">
+        </div> */}
+        {/* <div className="site-learn foot-col col-12 col-sm-4 col-lg-2">
           <ul>
             <li className="foot-header">Learn</li>
             <li><a href="/guides">Read Guides</a></li>
@@ -49,17 +61,20 @@ const PageFooter = () => (
             <li><a href="/devops">DevOps Roadmap</a></li>
             <li><a href="/roadmaps">Upcoming</a></li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
 
     {/* Do not show on local */}
-    { process.env.GA_SECRET && (
+    {process.env.GA_SECRET && (
       <>
         <div id="codefund"></div>
-        <script src="https://app.codefund.io/properties/681/funder.js" async></script>
+        <script
+          src="https://app.codefund.io/properties/681/funder.js"
+          async
+        ></script>
       </>
-    ) }
+    )}
   </FooterWrap>
 );
 

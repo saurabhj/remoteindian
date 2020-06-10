@@ -148,7 +148,7 @@
     "description": "Find out how Faraz, a college dropout, went on to work remotely for Daycation 😎",
     "url": "/interviews/faraz-patankar",
     "fileName": "faraz-patankar",
-    "featured": true,
+    "featured": false,
     "author": "avi87",
     "updatedAt": "2019-06-14",
     "createdAt": "2019-06-14"
@@ -159,7 +159,7 @@
     "description": "Find out how Parbhat Puri has an awesome freelance career working from Kurukshetra 🤔",
     "url": "/interviews/parbhat-puri",
     "fileName": "parbhat-puri",
-    "featured": true,
+    "featured": false,
     "author": "avi87",
     "updatedAt": "2019-06-22",
     "createdAt": "2019-06-22"

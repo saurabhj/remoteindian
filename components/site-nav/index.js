@@ -9,11 +9,11 @@ const SiteNav = () => (
         </a>
       </div>
       <div className='nav-links'>
-        <a href='/roadmaps'>Roadmaps</a>
+        <a href='/interviews'>Interviews</a>
         <a href='/guides'>Guides</a>
-        <a href='/sponsors' className='d-none d-md-inline-block'>Sponsors</a>
+        {/* <a href='/sponsors' className='d-none d-md-inline-block'>Sponsors</a>
         <a href='/about' className='d-none d-md-inline-block'>FAQ</a>
-        <a href='/signup' className='signup'>Subscribe</a>
+        <a href='/signup' className='signup'>Subscribe</a> */}
       </div>
     </div>
   </HeaderWrap>
