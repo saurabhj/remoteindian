@@ -1,6 +1,6 @@
 > Full Stack Developer. Budding Entrepreneur. Mentor @ Udacity
 
-## Quickfire Round 🔫
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -52,7 +52,7 @@ I am not a big fan of daily transport. I even tweeted about it.
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### How did you land your first remote/freelance gig ?
 

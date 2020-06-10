@@ -1,6 +1,6 @@
 > [AltCampus](https://altcampus.io/) founder, Geek who loves community and building products
 
-## Quickfire Round ⚡️
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -40,7 +40,7 @@ Again freedom and working on what matters the most to me.
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### I know that you are currently working from Dharamshala. What convinced you to make this move ?
 

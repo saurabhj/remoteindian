@@ -1,6 +1,6 @@
 > Works remotely for Product Hunt.
 
-## Quickfire Round ⚡️
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -44,7 +44,7 @@ I’m an accidental remote worker. Wasn’t looking for remote jobs.
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### How did you land your current remote job ?
 

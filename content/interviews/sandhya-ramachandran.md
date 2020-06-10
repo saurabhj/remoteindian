@@ -1,6 +1,6 @@
 > Content Developer at QLC | Multipotentialite redefining how we craft our stories & connect in a digital world
 
-## Quickfire Round ⚡️
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -44,7 +44,7 @@ Flexibility and freedom.
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### How did you land your first remote/freelance gig ?
 

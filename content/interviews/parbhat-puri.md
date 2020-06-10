@@ -1,4 +1,4 @@
-## Quickfire Round ⚡️
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -44,7 +44,7 @@ Freelancing helps to work with companies present in any part of the world. I can
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### How did you land your current freelance gigs ?
 

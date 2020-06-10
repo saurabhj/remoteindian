@@ -1,6 +1,6 @@
 > Business Intelligence & Analytics Consultant. Product Enthusiast. Tea lover.
 
-## Quickfire Round ⚡️
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -46,7 +46,7 @@ Not even kidding ![Google images for remote work](/interviews/inspiration-1024x2
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### How did you land your first remote/freelance gig ?
 

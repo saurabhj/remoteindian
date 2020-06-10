@@ -1,6 +1,6 @@
 > IndieHacker. Creator of ACrypto, VisaList, AnExplorer. Digital Nomad.
 
-## Quickfire Round ⚡️
+## ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -40,7 +40,7 @@ I'm invincible and can do anything I want
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### It’s been more than a year since you quit your 9–5 desk job. How has it gone and what has been your major learnings on this journey ?
 

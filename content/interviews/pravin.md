@@ -1,4 +1,4 @@
-## Quickfire Round ⚡️
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -46,7 +46,7 @@ Freedom and in control of my work, my time.
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### How did you land your current freelance gig(s) ?
 

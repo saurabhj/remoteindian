@@ -1,4 +1,4 @@
-## Quickfire round 🔫
+## ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -34,7 +34,7 @@ Information Technology
 
 * * *
 
-## Fireside chat 🔥
+## 🔥 Fireside Chat
 
 ### When I think about the ability to work freelance/remotely, I feel \_\_\_\_\_\_
 

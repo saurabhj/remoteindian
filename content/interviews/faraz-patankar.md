@@ -1,4 +1,4 @@
-## Quickfire Round ⚡️
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -44,7 +44,7 @@ Freedom to work when and where I choose to.
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### How did you land your current remote job ?
 

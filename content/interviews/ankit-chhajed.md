@@ -1,6 +1,6 @@
 > Visual Design Expert. Life Coach. Digital Entrepreneur.
 
-## Quickfire Round 🔫
+##  ⚡️ Quickfire Round
 
 ### **Where is your current homebase ?**
 
@@ -80,7 +80,7 @@ To me, freelancing is all about freedom. Not being committed to a full time job,
 
 > I do my guitar sessions, running, gymming streaks, TT rounds, and _bakar_ (read: random conversations) at times when I choose to. It’s never a 8 hours of work straight & then play. It’s always a mix. Keeps me inspired and fresh.
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### **How did you land your first remote/freelance gig ?**
 

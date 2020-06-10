@@ -1,6 +1,6 @@
 > Product developer working remotely from Pune 🏠
 
-## Quickfire Round ⚡️
+##  ⚡️ Quickfire Round
 
 ### Where is your current homebase ?
 
@@ -46,7 +46,7 @@ Spending more time with my daughter (now +son) while they were growing up in the
 
 * * *
 
-## Fireside Chat 🔥
+## 🔥 Fireside Chat
 
 ### How did you land your current remote job ?
 
