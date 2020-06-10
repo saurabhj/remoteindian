@@ -27,11 +27,36 @@ const Guide = ({ guide, canonical }) => {
   );
 };
 
-Guide.getInitialProps = serverOnlyProps(async ({ req }) => {
+// Guide.getInitialProps = serverOnlyProps(async ({ req }) => {
+//   return {
+//     canonical: `${siteConfig.url.web}${req.url}`,
+//     guide: await getRequestedGuide(req),
+//   };
+// });
+
+export async function getStaticProps({ params }) {
+  const guide = await getRequestedGuide(params.guide);
+
   return {
-    canonical: `${siteConfig.url.web}${req.url}`,
-    guide: await getRequestedGuide(req),
+    props: {
+      guide,
+    },
   };
-});
+}
+
+export async function getStaticPaths() {
+  const guides = require("../../content/guides.json");
+
+  const paths = guides.map((guide) => ({
+    params: {
+      guide: guide.fileName,
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
 
 export default Guide;

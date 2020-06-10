@@ -1,14 +1,16 @@
 {
   "author": "Abhishek",
-  "title": "Community for remote workers in India &#x1f1ee;&#x1f1f3;",
+  "title": "Community for remote workers in India 🇮🇳",
   "name": "RemoteIndian",
-  "description": "We are a community of remote workers in India who help each other in reaching our financial goals with confidence by sharing proven strategies and best practices",
+  "description": "Community driven guides, interviews and resources for remote workers in India to learn from, identify their career paths, know what they don't know, find out the knowledge gaps, learn and improve.",
   "twitter": "abhishekbose87",
   "facebook": "abhishekbose87",
   "logo": "/brand.png",
   "logoSquare": "/brand-square.png",
   "url": {
-    "web": "https://remoteindian.now.sh"
+    "web": "https://remoteindian.now.sh",
+    "repo": "https://github.com/abhishekbose87/remoteindian",
+    "repoData": "https://github.com/abhishekbose87/remoteindian/tree/master/content"
   },
   "keywords": [
     "remote work india",
